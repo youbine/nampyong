@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "MaisonNeueExtendedLight";
+  src:
+    url("MaisonNeueExtendedLight/font.woff2") format("woff2"),
+    url("MaisonNeueExtendedLight/font.woff") format("woff");
+}
+
+html {
+  font-family: "MaisonNeueExtendedLight";
+}

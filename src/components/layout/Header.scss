@@ -1,0 +1,190 @@
+.header {
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+}
+.header_nav {
+  text-transform: capitalize;
+}
+@media (min-width: 1024px) {
+  .header {
+    left: var(--spacing-unit);
+  }
+  .header_inner {
+    display: flex;
+  }
+  .header_logo {
+    width: 100px;
+    margin-right: 80px;
+    margin-top: var(--spacing-unit);
+  }
+  .header_menu {
+    transition: all 0.2s ease;
+    height: auto;
+    position: relative;
+  }
+  .header_menu_btn {
+    padding: 15px 10px;
+    width: 150px;
+    transition: all 0.2s ease;
+    position: absolute;
+    z-index: 1001;
+    border-right: 1px solid var(--color-white);
+    border-left: 1px solid var(--color-white);
+    border-bottom: 1px solid var(--color-white);
+    &:hover {
+      background: var(--color-white);
+      .header_menu_btn-dot {
+        background: var(--color-black);
+        border: 1px solid var(--color-black);
+      }
+    }
+    &.active {
+      border-bottom: none;
+      border-right: none;
+      .header_menu_btn-dot {
+        border: 1px solid var(--color-white);
+        background: var(--color-white);
+      }
+      &:hover {
+        background: var(--color-black);
+        .header_menu_btn-dot {
+          // border: 1px solid var(--color-black);
+          // background: var(--color-black);
+        }
+      }
+    }
+    .header_menu_btn-dot {
+      border: 1px solid var(--color-white);
+      background: var(--color-black);
+      height: 8px;
+      width: 8px;
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .header_nav {
+    transition: all 0.2s ease;
+    height: 30px;
+    visibility: hidden;
+    .header_nav-main {
+      opacity: 0;
+      transform: translateY(-50px);
+      > li {
+        width: var(--header-menu-width);
+        border: 1px solid var(--color-white);
+        margin-top: -1px;
+        position: relative;
+        &:first-child {
+          a {
+            padding-top: 80px;
+          }
+        }
+      }
+      a,
+      button {
+        padding: 10px;
+        display: block;
+        text-transform: capitalize;
+        transition: all 0.2s ease;
+        text-align: left;
+        position: relative;
+        z-index: 1000;
+        background: var(--color-black);
+        cursor: pointer;
+        &:hover {
+          background: var(--color-white);
+          color: var(--color-black);
+        }
+      }
+      button {
+        width: 100%;
+      }
+    }
+    .header_nav-sub {
+      position: absolute;
+      z-index: 999;
+      left: 100%;
+      top: -1px;
+      opacity: 0;
+      pointer-events: none;
+      &.show {
+        opacity: 1;
+        pointer-events: auto;
+      }
+      li {
+        background: var(--color-black);
+        width: calc(var(--header-menu-width) * 2);
+        border: 1px solid var(--color-white);
+        margin-bottom: -1px;
+      }
+    }
+  }
+}
+// tablet, mobile
+@media (max-width: 1024px) {
+  .header {
+    width: 100%;
+    padding-top: 20px;
+    background: var(--color-black);
+  }
+  .header_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header_logo {
+    width: 120px;
+  }
+  .header_menu {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .header_menu_btn {
+    border-bottom: 1px solid var(--color-white);
+    padding-bottom: 5px;
+    &.active {
+      .header_menu_btn-dot {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .header_menu_btn-dot {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 10px;
+      height: 10px;
+      border-right: 1px solid #fff; // 선 두께 조절
+      border-bottom: 1px solid #fff;
+      transform: translate(-50%, -70%) rotate(45deg); // 기본 상태: 아래 향함
+      transition: all 0.4s ease;
+    }
+  }
+  .header_nav {
+    // background: var(--color-black);
+    line-height: 2;
+    height: 0px;
+  }
+  .header_nav-main {
+    padding: 15px 0;
+    border-bottom: 1px solid var(--color-white);
+    visibility: hidden;
+    button {
+      text-transform: capitalize;
+    }
+  }
+  .header_nav-sub {
+    display: none;
+  }
+}

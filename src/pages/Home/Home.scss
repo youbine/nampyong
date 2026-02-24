@@ -1,0 +1,19 @@
+.hero {
+  height: 100vh;
+  .hero_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    img {
+      object-fit: contain;
+      width: 45%;
+    }
+  }
+}
+.hero_footer-activation-icon {
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+}
