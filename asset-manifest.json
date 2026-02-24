@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/youbine/nampyong.git/static/css/main.cfc7be31.css",
-    "main.js": "/youbine/nampyong.git/static/js/main.9908686d.js",
-    "static/media/font.woff": "/youbine/nampyong.git/static/media/font.83dc6551068dbd525262.woff",
-    "static/media/font.woff2": "/youbine/nampyong.git/static/media/font.be8304b92c0ebc2eaeb4.woff2",
-    "index.html": "/youbine/nampyong.git/index.html",
-    "main.cfc7be31.css.map": "/youbine/nampyong.git/static/css/main.cfc7be31.css.map",
-    "main.9908686d.js.map": "/youbine/nampyong.git/static/js/main.9908686d.js.map"
+    "main.css": "/nampyong/static/css/main.3b1c32ec.css",
+    "main.js": "/nampyong/static/js/main.2df5c466.js",
+    "static/media/font.woff": "/nampyong/static/media/font.83dc6551068dbd525262.woff",
+    "static/media/font.woff2": "/nampyong/static/media/font.be8304b92c0ebc2eaeb4.woff2",
+    "index.html": "/nampyong/index.html",
+    "main.3b1c32ec.css.map": "/nampyong/static/css/main.3b1c32ec.css.map",
+    "main.2df5c466.js.map": "/nampyong/static/js/main.2df5c466.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfc7be31.css",
-    "static/js/main.9908686d.js"
+    "static/css/main.3b1c32ec.css",
+    "static/js/main.2df5c466.js"
   ]
 }
