@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nampyong/static/css/main.fc9ae741.css",
-    "main.js": "/nampyong/static/js/main.a441a931.js",
+    "main.css": "/nampyong/static/css/main.6c06571c.css",
+    "main.js": "/nampyong/static/js/main.5b817c9e.js",
     "static/media/font.woff": "/nampyong/static/media/font.83dc6551068dbd525262.woff",
     "static/media/font.woff2": "/nampyong/static/media/font.be8304b92c0ebc2eaeb4.woff2",
     "index.html": "/nampyong/index.html",
-    "main.fc9ae741.css.map": "/nampyong/static/css/main.fc9ae741.css.map",
-    "main.a441a931.js.map": "/nampyong/static/js/main.a441a931.js.map"
+    "main.6c06571c.css.map": "/nampyong/static/css/main.6c06571c.css.map",
+    "main.5b817c9e.js.map": "/nampyong/static/js/main.5b817c9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc9ae741.css",
-    "static/js/main.a441a931.js"
+    "static/css/main.6c06571c.css",
+    "static/js/main.5b817c9e.js"
   ]
 }
