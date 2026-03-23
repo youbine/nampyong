@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/nampyong/static/css/main.6c06571c.css",
-    "main.js": "/nampyong/static/js/main.5b817c9e.js",
+    "main.css": "/nampyong/static/css/main.1cc44f14.css",
+    "main.js": "/nampyong/static/js/main.9a5fc36f.js",
+    "static/media/home_img_01.jpg": "/nampyong/static/media/home_img_01.5feceaf4bb5012180385.jpg",
     "static/media/font.woff": "/nampyong/static/media/font.83dc6551068dbd525262.woff",
     "static/media/font.woff2": "/nampyong/static/media/font.be8304b92c0ebc2eaeb4.woff2",
     "index.html": "/nampyong/index.html",
-    "main.6c06571c.css.map": "/nampyong/static/css/main.6c06571c.css.map",
-    "main.5b817c9e.js.map": "/nampyong/static/js/main.5b817c9e.js.map"
+    "main.1cc44f14.css.map": "/nampyong/static/css/main.1cc44f14.css.map",
+    "main.9a5fc36f.js.map": "/nampyong/static/js/main.9a5fc36f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c06571c.css",
-    "static/js/main.5b817c9e.js"
+    "static/css/main.1cc44f14.css",
+    "static/js/main.9a5fc36f.js"
   ]
 }
